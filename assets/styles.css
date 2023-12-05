@@ -33,6 +33,8 @@
 
 body {
   background-color: var(--background);
+  display: flex;
+  flex-direction: column;
 }
 
 /* header */
@@ -102,7 +104,7 @@ ul li a img {
 }
 
 #hero-card {
-  padding: 30px;
+  padding: 20px;
   border-radius: 30px;
   background-color: #272d37;
   display: flex;
@@ -120,17 +122,123 @@ ul li a img {
   justify-content: space-between;
 }
 
+#hero-card-title p {
+  overflow: hidden;
+}
+
 #hero-card-title span {
   display: flex;
   justify-content: center;
-  border-radius: 10px;
-  padding: 5px 5px;
+  border-radius: 8px;
+  padding: 0px 15px 0px 15px;
   height: 25px;
   background-color: var(--primary);
 }
 
-#hero-card-creator1 img {
-  width: 50px;
-  height: 50px;
+#hero-card-creator {
+  display: flex;
+  flex-direction: column;
 }
+
+#hero-card-creator1 {
+  display: flex;
+  gap: 20px;
+}
+#hero-card-creator1-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+#hero-card-creator1 img {
+  width: 45px;
+  height: 45px;
+}
+
+#hero-card-creator1-texts span {
+  color: var(--text-gray);
+  font-size: smaller;
+}
+
+#hero-card-creator-value p:nth-child(1) {
+  color: var(--text-gray);
+  font-size: smaller;
+}
+
+/* Segunda Seccion */
+#tutorial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 70px;
+  align-items: center;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+#tutorial p:nth-child(1) {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#container-boxs-tutorial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+#box {
+  border-radius: 15px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  width: 300px;
+  height: 300px;
+  background-color: #272d37;
+}
+
+#box img {
+  width: 45px;
+  height: 45px;
+}
+
+#box span {
+  color: var(--text-gray);
+}
+
+/* Segunda Seccion */
+
+/* Tercera Seccion */
+#descubre {
+  margin-top: 10rem;
+  display: flex;
+  color: white;
+  justify-content: center;
+  width: auto;
+  padding: 0px 70px 0px 70px;
+}
+#descubre p {
+  font-size: 60px;
+}
+
+#box-text {
+  display: flex;
+  flex-direction: column;
+}
+
+#box-text span {
+  color: var(--text-gray);
+}
+
+#box-text a {
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+/* Tercera Seccion */
+
 /* main */
