@@ -45,6 +45,7 @@ header {
   justify-content: space-between;
   background-color: #272d37;
   padding: 15px;
+  position: fixed;
 }
 
 nav {
@@ -72,6 +73,7 @@ ul li a img {
   display: flex;
   justify-content: space-around;
   margin: 10%;
+  max-width: 1200px;
   color: var(--text-white);
 }
 
@@ -171,7 +173,7 @@ ul li a img {
   justify-content: space-evenly;
   gap: 70px;
   align-items: center;
-  width: 100%;
+  max-width: 1200px;
   color: white;
   text-align: center;
 }
@@ -191,6 +193,7 @@ ul li a img {
 #box {
   border-radius: 15px;
   padding: 25px;
+  /* padding-bottom: 35px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -215,22 +218,26 @@ ul li a img {
 #descubre {
   margin-top: 10rem;
   display: flex;
+  flex-direction: column;
   color: white;
   justify-content: center;
-  width: auto;
+  align-items: center;
+  max-width: 1200px;
   padding: 0px 70px 0px 70px;
 }
-#descubre p {
-  font-size: 60px;
-}
-
 #box-text {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#box-text p {
+  font-size: 40px;
 }
 
 #box-text span {
   color: var(--text-gray);
+  font-weight: 1500;
 }
 
 #box-text a {
@@ -239,6 +246,109 @@ ul li a img {
   font-size: 20px;
 }
 
+#box-text2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#nftsImages {
+  display: flex;
+  gap: 20px;
+}
+
+#nftsImages img {
+  width: 350px;
+  height: 300px;
+}
+
 /* Tercera Seccion */
 
+/* Cuarta Seccion */
+#products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+#products h2 {
+  padding-top: 100px;
+  color: var(--text-white);
+  font-size: 50px;
+}
+
+#products #botones-filtro {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+/* Cuarta Seccion */
+
+/* Quinta seccion */
+#card-products-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+#card-products {
+  background-color: var(--secondary);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  max-height: 800px;
+  padding: 20px;
+  gap: 20px;
+}
+
+#first-line-text {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+#first-line-text span,
+#second-line-text p {
+  color: var(--text-gray);
+}
+
+#second-line-text {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+#third-line-text {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+#third-line-text-bis {
+  display: flex;
+  gap: 30px;
+}
+
+#third-line-text button {
+  text-align: center;
+  width: 90px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--primary);
+  color: var(--text-white);
+}
+
+#first-line-gallery,
+#second-line-gallery {
+  display: flex;
+  gap: 20px;
+}
+/* Quinta seccion */
 /* main */
